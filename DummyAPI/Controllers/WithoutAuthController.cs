@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Collections.Generic;
 using System.Web.Http;
 
 namespace DummyAPI.Controllers
 {
-
-    public class ValuesController : ApiController
+    public class WithoutAuthController : ApiController
     {
         // GET api/values
-        [BasicAuthentication]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "ValueWithoutAuthentication1", "ValueWithoutAuthentication2" };
         }
 
         // GET api/values/5

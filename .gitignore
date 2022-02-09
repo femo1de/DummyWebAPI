@@ -1,3 +1,7 @@
 /.vs/
 */bin/
 */obj/*
+/DummyAPI/DummyAPI.csproj
+/DummyAPI/obj/Debug/DummyAPI.csproj.CoreCompileInputs.cache
+/DummyAPI/obj/Debug/DummyAPI.dll
+/DummyAPI/obj/Debug/DummyAPI.pdb
